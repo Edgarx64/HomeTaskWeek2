@@ -2,7 +2,7 @@ package com.geekhub.hw2;
 
 public class Force {
 
-    private final int amount;
+    private int amount;
 
     public Force(int amount) {
         this.amount = amount;
@@ -10,5 +10,9 @@ public class Force {
 
     public int getAmount() {
         return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
 }
